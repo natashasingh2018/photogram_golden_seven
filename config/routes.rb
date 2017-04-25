@@ -15,5 +15,8 @@ get("/update_photo/:the_id", {:controller=> "photos", :action=>"update_row"})
 #DELETE
 get("/photos/:the_id/delete", {:controller=> "photos", :action=>"delete_row"})
 
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
