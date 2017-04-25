@@ -68,6 +68,5 @@ group :test do
 end
 
 gem 'devise'
-gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'font-awesome-sass', '~> 4.7.0'
